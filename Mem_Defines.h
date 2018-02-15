@@ -9,6 +9,9 @@
  *              and use of the shared memory.
  ******************************************************************/
 
+#ifndef MEM_DEFINES_H
+#define MEM_DEFINES_H
+
 /** The size in bytes of the shared memory section to be created. */
 #define SHM_SIZE 4096
 /** The offset of the string in the shared memory section. */
@@ -21,3 +24,5 @@
 #define DATA_READ 0
 /** The project key used for accessing the shared memory. */
 #define PROJECT_KEY 'a'
+
+#endif
